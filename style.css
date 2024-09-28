@@ -1,0 +1,144 @@
+/* Fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url('/Media/Artboard 1.png'); /* Replace with your image path */
+    background-size: cover;      /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border-color: white;
+}
+
+/* Cover View */
+#cover-view {
+ /* Center the image */
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: Black;
+    padding-left: 450px;
+}
+
+@font-face {
+    font-family: 'ka1';
+    src: url('Font/ka1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ARCADECLASSIC';
+    src: url('Font/ARCADECLASSIC.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cover-content {
+    position: absolute;
+    left: 38%; /* Adjust as needed */
+    top: 52%;
+    transform: translateY(-50%);
+    color: black;
+    max-width: 1000px;
+
+}
+
+.cover-content h1 {
+    font-size: 5rem;
+    margin-bottom: 0.4rem;
+    font-family: 'ka1', sans-serif;
+}
+
+.cover-content h2 {
+    font-family: 'ARCADECLASSIC', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    font-style: italic;
+
+}
+
+.cover-content p {
+    font-family: 'ARCADECLASSIC', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+}
+
+/* Footer with Gradient */
+footer {
+    position: fixed;
+    bottom: -80px;
+    background: linear-gradient(to top, black, transparent);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    transition: bottom 0.5s ease;
+}
+
+footer.show-footer {
+    bottom: 0; /* Footer appears when user hovers near bottom of screen */
+}
+
+/* Social Links Styling */
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content p {
+    font-family: 'ARCADECLASSIC', sans-serif;
+    letter-spacing: 1.4px;
+    margin-top: 10px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.social-links a i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Hover effect: Icon and text color change and slight scaling */
+.github a:hover {
+    color: #0f1116; /* Change to gold on hover */
+    transform: scale(1.1); /* Slightly enlarge */
+}
+
+.linkedin a:hover {
+    color: #2d72b0; /* Change to gold on hover */
+    transform: scale(1.1); /* Slightly enlarge */
+}
+
+.email a:hover {
+    color: #e04c3d; /* Change to gold on hover */
+    transform: scale(1.1); /* Slightly enlarge */
+}
+
