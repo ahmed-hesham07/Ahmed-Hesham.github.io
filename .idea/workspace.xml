@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746ae3e6-a2c3-4c13-ad97-4db2e2a4bc41" name="Changes" comment="2nd core contain cover and about sections">
-      <change afterPath="$PROJECT_DIR$/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="746ae3e6-a2c3-4c13-ad97-4db2e2a4bc41" name="Changes" comment="fix bug">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Font/ARCADECLASSIC.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/ARCADECLASSIC.TTF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Font/ka1.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/ka1.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/docs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Media/Artboard 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Media/Artboard 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Media/pfp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Media/pfp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cover.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +72,7 @@
       <recent name="C:\Users\ahmed\WebstormProjects\Ahmed-Hesham.github.io\Media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahmed\WebstormProjects\Ahmed-Hesham.github.io\docs" />
       <recent name="C:\Users\ahmed\WebstormProjects\Ahmed-Hesham.github.io\Font" />
     </key>
   </component>
@@ -88,7 +96,7 @@
       <workItem from="1727366548327" duration="2611000" />
       <workItem from="1727370444635" duration="8673000" />
       <workItem from="1727531181880" duration="3971000" />
-      <workItem from="1727548918493" duration="10491000" />
+      <workItem from="1727548918493" duration="11449000" />
     </task>
     <task id="LOCAL-00001" summary="1st core contain cover and about sections">
       <option name="closed" value="true" />
@@ -122,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727382842375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="core {cover and footer}">
+      <option name="closed" value="true" />
+      <created>1727565174731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727565174731</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix bug">
+      <option name="closed" value="true" />
+      <created>1727565213497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727565213497</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st core contain cover and about sections" />
     <MESSAGE value="2nd core contain cover and about sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd core contain cover and about sections" />
+    <MESSAGE value="core {cover and footer}" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
 </project>
