@@ -1,5 +1,4 @@
 /* Fonts */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,19 +6,16 @@
 }
 
 body {
-
-    background-image: url('../Media/cover.png');
-    background-size: cover;      /* Ensure the image covers the entire section */
-    background-position: center; /* Center the image */
+    background-image: url('../Media/cover.png'); /* Ensure path is correct and case-sensitive */
+    background-size: cover;
+    background-position: center;
     position: relative;
     width: 100vw;
     height: 100vh;
-    border-color: white;
 }
 
 /* Cover View */
 #cover-view {
- /* Center the image */
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -27,32 +23,31 @@ body {
     justify-content: center;
     align-items: center;
     text-align: left;
-    color: Black;
+    color: black;
     padding-left: 450px;
 }
 
 @font-face {
     font-family: 'ka1';
-    src: url('../../Font/ka1.ttf') format('truetype');
+    src: url('../../Font/ka1.ttf') format('truetype'); /* Make sure the path is correct */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ARCADECLASSIC';
-    src: url('../../Font/ARCADECLASSIC.TTF') format('truetype');
+    src: url('../../Font/ARCADECLASSIC.TTF') format('truetype'); /* Make sure the path is correct */
     font-weight: normal;
     font-style: normal;
 }
 
 .cover-content {
     position: absolute;
-    left: 38%; /* Adjust as needed */
+    left: 38%;
     top: 52%;
     transform: translateY(-50%);
     color: black;
     max-width: 1000px;
-
 }
 
 .cover-content h1 {
@@ -68,7 +63,6 @@ body {
     font-weight: lighter;
     letter-spacing: 1.5px;
     font-style: italic;
-
 }
 
 .cover-content p {
@@ -91,10 +85,9 @@ footer {
 }
 
 footer.show-footer {
-    bottom: 0; /* Footer appears when user hovers near bottom of screen */
+    bottom: 0;
 }
 
-/* Social Links Styling */
 .social-links {
     list-style: none;
     padding: 0;
@@ -123,22 +116,21 @@ footer.show-footer {
 }
 
 .social-links a i {
-    margin-right: 8px; /* Space between icon and text */
+    margin-right: 8px;
 }
 
-/* Hover effect: Icon and text color change and slight scaling */
+/* Hover effect */
 .github a:hover {
-    color: #0f1116; /* Change to gold on hover */
-    transform: scale(1.1); /* Slightly enlarge */
+    color: #0f1116;
+    transform: scale(1.1);
 }
 
 .linkedin a:hover {
-    color: #2d72b0; /* Change to gold on hover */
-    transform: scale(1.1); /* Slightly enlarge */
+    color: #2d72b0;
+    transform: scale(1.1);
 }
 
 .email a:hover {
-    color: #e04c3d; /* Change to gold on hover */
-    transform: scale(1.1); /* Slightly enlarge */
+    color: #e04c3d;
+    transform: scale(1.1);
 }
-
