@@ -1,4 +1,4 @@
-# Ahmed-Hesham.github.io
+# My Portfolio
 
 ## Project Overview
 
@@ -27,11 +27,13 @@ portfolio/
 │   ├── js
 │   │   └── script.js
 │   └── Media
-│       └── Artboard 1.png
+│       ├── Artboard 1.png
+│       └── pfp.jpg
 ├── Font
 │   ├── ka1.ttf
 │   └── ARCADECLASSIC.TTF
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ## Setup and Installation
